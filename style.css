@@ -116,6 +116,54 @@ h2 {
   text-decoration: underline;
 }
 
+/* Experience */
+.experiences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.experience-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.experience-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+.experience-card a:hover {
+  text-decoration: underline;
+}
+
+/* Formation */
+.formations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.formation-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.formation-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+.formation-card a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 footer {
   text-align: center;
