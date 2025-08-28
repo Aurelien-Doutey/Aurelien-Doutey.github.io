@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Aurélien Doutey</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<link rel="stylesheet" href="style.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#about">À propos</a>
+  <a href="#skills">Compétences</a>
+  <a href="#experiences">Expérience</a>
+  <a href="#formations">Formation</a>
+  <a href="#projects">Projets</a>
+  <a href="#contact">Contact</a>
+</div>
+
   <!-- Header / Hero -->
   <header class="hero">
     <div class="container">
@@ -35,51 +37,38 @@
     <div class="container">
       <h2>Compétences</h2>
       <div class="skills-grid">
-        <div class="skill">💻 HTML / CSS / PHP / Wordpress</div>
-        <div class="skill">⚡ JavaScript / Jquery</div>
-        <div class="skill">⚛️ SQL / MySQL / Python</div>
-        <div class="skill">🌐 SEO / Angular / Git / GitHub</div>
-        <div class="skill">🎨 UI/UX Design / SVG / Windev</div>
+        <div class="skill">💻 HTML, CSS, PHP, Wordpress</div>
+        <div class="skill">⚡ JavaScript, Jquery, Python</div>
+        <div class="skill">⚛️ SQL, MySQL, Windev</div>
+        <div class="skill">🌐 SEO, Angular, Git, GitHub</div>
+        <div class="skill">🎨 UI/UX Design, SVG</div>
       </div>
     </div>
   </section>
 
   <!-- Experience -->
-  <section id="experience" class="section">
+  <section id="experiences" class="section">
     <div class="container">
-      <h2>Experience Pro</h2>
-      <div class="experiences-grid">
-        <div class="experience-card">
+      <h2>Expérience Pro</h2>
           <h3>Stage Développeur (4 mois) Juin - Octobre 2024 :</h3>
-          <p>Développement de widgets, interface graphique</p>
-          <p>JavaScript, SVG, Python, QT</p>
+          <p>Développement de widgets, interface graphique: JavaScript, SVG, Python, QT</p>
           <p>Ewattch, Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="experience-card">
+          <br>
           <h3>CDD Développeur Full Stack (9 mois) Avril - Décembre 2022 :</h3>
-          <p>Développement de sites internet, SEO, UX : </p>
-          <p>HTML, CSS, PHP, JavaScript, MySQL</p>
-          <p>AccueilPro / Itup Keep, Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="experience-card">
+          <p>Développement de sites internet, SEO, UX : HTML, CSS, PHP, JavaScript, MySQL</p>
+          <p>AccueilPro, Saint-Dié-des-Vosges</p>
+          <br>
           <h3>Alternance Licence Professionelle (1 an) Septembre 2029 - Août 2020 :</h3>
-          <p>Développement d'un logiciel CRM</p>
-          <p>Windev 24, HFSQL Client / Serveur, MySQL</p>
+          <p>Développement d'un logiciel CRM: Windev 24, HFSQL Client / Serveur, MySQL</p>
           <p>Grandblaise Leroy, Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="experience-card">
+          <br>
           <h3>CDD Développeur (1 mois) Août 2019 :</h3>
-          <p>Développement d'un logiciel de fidélité client</p>
-          <p>Windev 24, HFSQL Client / Serveur</p>
+          <p>Développement d'un logiciel de fidélité client: Windev 24, HFSQL Client / Serveur</p>
           <p>Grandblaise Leroy, Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="experience-card">
+          <br>
           <h3>Stage de fin de DUT (10 semaines) Avril - Juin 2019 :</h3>
-          <p>Réalisation d'un outil d'audit </p>
-          <p>Angular, Firebase, Bootsrap</p>
+          <p>Réalisation d'un outil d'audit: Angular, Firebase, Bootsrap</p>
           <p>Plateforme QS+, Saint-Dié-des-Vosges</p>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -87,23 +76,17 @@
   <section id="formations" class="section">
     <div class="container">
       <h2>Formation</h2>
-      <div class="formations-grid">
-        <div class="formation-card">
-          <h3>Licence Professionelle AMIO en Alternance (2019-2020)</h3>
-          <p>Grandblaise Leroy, Saint-Dié-des-Vosges</p>
+          <h3>Licence Professionelle AMIO en Alternance (2019-2020) Grandblaise Leroy</h3>
           <p>Application Web - Application Mobile et Internet des Objets</p>
           <p>Université de Lorraine, IUT de Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="formation-card">
+          <br>
           <h3>DUT Informatique (2017-2019)</h3>
           <p>Programmation web, Bases de données, Algorithmique, Réseaux</p>
           <p>Université de Lorraine, IUT de Saint-Dié-des-Vosges</p>
-        </div>
-        <div class="formation-card">
+          <br>
           <h3>Baccalauréat Technologique (Juin 2017)</h3>
           <p>STI2D Systèmes d'Information et Numérique Mention Assez Bien</p>
           <p>Lycée Georges Baumont, Saint-Dié-des-Vosges</p>
-        </div>
       </div>
     </div>
   </section>
@@ -114,19 +97,19 @@
       <h2>Projets</h2>
       <div class="projects-grid">
         <div class="project-card">
-          <h3>Pokedex</h3>
+          <h3>Pokédex</h3>
           <p>HTML, CSS, JavaScript</p>
-          <a href="#" target="https://github.com/Aurelien-Doutey/Pokedex">Voir</a>
+          <a href="https://github.com/Aurelien-Doutey/Pokedex" target="_blank">Voir</a>
         </div>
         <div class="project-card">
-          <h3>Jeu du Puissance 4 : </h3>
+          <h3>Puissance 4</h3>
           <p>HTML, CSS, JavaScript, Jquery</p>
-          <a href="#" target="https://github.com/Aurelien-Doutey/Puissance-4">Voir</a>
+          <a href="https://github.com/Aurelien-Doutey/Puissance-4" target="_blank">Voir</a>
         </div>
         <div class="project-card">
           <h3>Blackjack</h3>
           <p>HTML, CSS, JavaScript, Jquery</p>
-          <a href="#" target="https://github.com/Aurelien-Doutey/Blackjack">Voir</a>
+          <a href="https://github.com/Aurelien-Doutey/Blackjack" target="_blank">Voir</a>
         </div>
       </div>
     </div>
@@ -136,7 +119,7 @@
   <section id="contact" class="section bg-light">
     <div class="container">
       <h2>Contact</h2>
-      <p>Tu veux collaborer avec moi ? N'hésite pas à me contacter :</p>
+      <p>Tu veux faire équipe avec moi ? N'hésite pas à me contacter :</p>
       <p>📧 <a href="mailto:aurelien.doutey@orange.fr">aurelien.doutey@orange.fr</a></p>
       <p>💼 <a href="https://www.linkedin.com/in/aur%C3%A9lien-doutey/" target="_blank">LinkedIn</a></p>
       <p>🐙 <a href="https://github.com/Aurelien-Doutey" target="_blank">GitHub</a></p>
@@ -147,5 +130,3 @@
   <footer>
     <p>© 2025 Aurélien Doutey — Tous droits réservés</p>
   </footer>
-</body>
-</html>

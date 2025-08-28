@@ -14,10 +14,35 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: "Segoe UI", Tahoma, sans-serif;
   line-height: 1.6;
   color: var(--text);
   background: var(--light);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /* Containers */
@@ -89,7 +114,7 @@ h2 {
   background: var(--light);
   padding: 15px;
   border-radius: var(--radius);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Projects */
@@ -102,7 +127,7 @@ h2 {
   background: #fff;
   padding: 20px;
   border-radius: var(--radius);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .project-card a {
@@ -126,7 +151,7 @@ h2 {
   background: #fff;
   padding: 20px;
   border-radius: var(--radius);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .experience-card a {
@@ -150,7 +175,7 @@ h2 {
   background: #fff;
   padding: 20px;
   border-radius: var(--radius);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .formation-card a {
