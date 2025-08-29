@@ -2,8 +2,6 @@
 :root {
   --primary: #4dabf7;
   --dark: #222;
-  --light: #ffffff;
-  --text: #333;
   --radius: 12px;
 }
 
@@ -36,8 +34,8 @@
 body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   line-height: 1.6;
-  color: var(--text);
-  background: var(--light);
+  color: black;
+  background-color: white;
 }
 
 .topnav {
@@ -73,9 +71,6 @@ body {
 }
 .section {
   padding: 40px 20px;
-}
-.bg-light {
-  background: #fff;
 }
 
 /* Hero */
@@ -163,7 +158,7 @@ h2 {
 
 /* Experience */
 #experiences{
-  background: var(--light);
+  background-color: white;
 }
 
 /* Formation */
@@ -174,6 +169,16 @@ h2 {
 #contact{
   background: var(--primary);
 }
+section #contact p{
+  color: white;
+}
+section #contact h2{
+  color: white;
+}
+section #contact a{
+  color: white;
+}
+
 
 /* Footer */
 footer {
@@ -181,5 +186,4 @@ footer {
   padding: 20px;
   background-color: #2d4783;
   color: #fff;
-  margin-top: 40px;
 }
