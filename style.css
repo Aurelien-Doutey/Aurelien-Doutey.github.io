@@ -191,6 +191,9 @@ footer {
 
 /* Mobile */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  h1{
+    font-size: 32px;
+  }
   h2{
     font-size: 22px;
     text-align: center;
@@ -206,7 +209,7 @@ footer {
   }
   .topnav a{
     padding: 2px 4px;
-    
+
   }
   /*.topnav a:hover {
     background-color: #edfaff;
