@@ -166,16 +166,18 @@ h2 {
   background-color: white;
 }
 
-#contact{
+.contact{
   background: var(--primary);
 }
-section #contact p{
+.contact p{
   color: white;
 }
-section #contact h2{
+.contact h2{
   color: white;
 }
-section #contact a{
+.contact a{
+  color: white;
+  text-decoration: none;
   color: white;
 }
 
