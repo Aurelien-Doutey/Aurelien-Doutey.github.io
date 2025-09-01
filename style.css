@@ -169,6 +169,10 @@ h2 {
   color:white;
 }
 
+#contact p{
+  color:white;
+}
+
 #contact a{
   text-decoration: none;
   color: white;
@@ -185,12 +189,10 @@ footer {
   color: #fff;
 }
 
+/* Mobile */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  h1{
-    font-size: 18px;
-  }
   h2{
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
   }
   h3{
@@ -212,5 +214,14 @@ footer {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+  .hero{
+    padding: 20px 5px;
+  }
+  .skill{
+    padding: 5px;
+  }
+  .project-card{
+    padding: 5px;
   }
 }
