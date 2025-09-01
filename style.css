@@ -5,6 +5,10 @@
   --radius: 12px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -41,6 +45,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #2d4783;
+  position: sticky;
+  top:0;
 }
 
 .topnav a {
@@ -166,19 +172,14 @@ h2 {
   background-color: white;
 }
 
+/* Contact */
 .contact{
   background: var(--primary);
-}
-.contact p{
   color: white;
 }
-.contact h2{
-  color: white;
-}
+
 .contact a{
-  color: white;
   text-decoration: none;
-  color: white;
 }
 
 
