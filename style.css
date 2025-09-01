@@ -211,14 +211,10 @@ footer {
     padding: 2px 4px;
 
   }
-  /*.topnav a:hover {
-    background-color: #edfaff;
-    color: black;
-  }
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }*/
+  }
   .hero{
     padding: 20px 5px;
   }
