@@ -196,7 +196,7 @@ footer {
     text-align: center;
   }
   h3{
-    font-size: 14px;
+    font-size: 16px;
   }
   p{
     font-size: 12px;
@@ -206,22 +206,27 @@ footer {
   }
   .topnav a{
     padding: 2px 4px;
+    
   }
-  .topnav a:hover {
+  /*.topnav a:hover {
     background-color: #edfaff;
     color: black;
   }
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+  }*/
   .hero{
     padding: 20px 5px;
   }
   .skill{
     padding: 5px;
+    font-size: 14px;
   }
   .project-card{
     padding: 5px;
+  }
+  .project-card a {
+    margin-top: 0;
   }
 }
