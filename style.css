@@ -111,7 +111,7 @@ h2 {
   text-align: center;
 }
 .skill {
-  background-color: #edfaff;
+  background-color: white;
   padding: 15px;
   border-radius: var(--radius);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -144,6 +144,10 @@ h2 {
   text-decoration: underline;
 }
 
+#skills{
+  background-color:#edfaff;
+}
+
 #projects{
   background-color:#edfaff;
 }
@@ -159,7 +163,6 @@ h2 {
 /* Contact */
 #contact{
   background: var(--primary);
-  color: white;
 }
 
 #contact h2{
@@ -201,5 +204,13 @@ footer {
   }
   .topnav a{
     padding: 2px 4px;
+  }
+  .topnav a:hover {
+    background-color: #edfaff;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
   }
 }
