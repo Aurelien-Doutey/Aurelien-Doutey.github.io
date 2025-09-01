@@ -18,19 +18,22 @@ html{
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   h1{
-    font-size: 20px;
-  }
-  h2{
     font-size: 18px;
   }
-  h3{
+  h2{
     font-size: 16px;
   }
-  p{
+  h3{
     font-size: 14px;
   }
+  p{
+    font-size: 12px;
+  }
   .section{
-    padding: 5px
+    padding: 0;
+  }
+  .topnav a{
+    padding: 2px 4px;
   }
   
 }
@@ -60,7 +63,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #edfaff;
   color: black;
 }
 
@@ -116,7 +119,6 @@ body {
   color: #fff;
 }
 
-/* Sections */
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -132,7 +134,7 @@ h2 {
   text-align: center;
 }
 .skill {
-  background-color: white;
+  background-color: #edfaff;
   padding: 15px;
   border-radius: var(--radius);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -144,6 +146,7 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
+
 .project-card {
   background: #fff;
   padding: 20px;
@@ -151,6 +154,7 @@ h2 {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
 .project-card a {
   display: inline-block;
   margin-top: 10px;
@@ -158,16 +162,19 @@ h2 {
   font-weight: bold;
   text-decoration: none;
 }
+
 .project-card a:hover {
   text-decoration: underline;
 }
 
-/* Experience */
+#projects{
+  background-color:#edfaff;
+}
+
 #experiences{
   background-color: white;
 }
 
-/* Formation */
 #formations{
   background-color: white;
 }
@@ -178,10 +185,16 @@ h2 {
   color: white;
 }
 
+.contact h2{
+  color:white;
+}
+
 .contact a{
   text-decoration: none;
 }
-
+.contact a:hover{
+  text-decoration: underline;
+}
 
 /* Footer */
 footer {
